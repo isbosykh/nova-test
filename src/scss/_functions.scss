@@ -1,0 +1,19 @@
+@function _em($pixels, $context: 16px, $to: 1em) {
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+
+  @if (unitless($context)) {
+    $context: $context * 1px;
+  }
+
+  @return $pixels / $context * 1em;
+}
+
+@function em($pixels, $context: 16px) {
+  @return _em($pixels, $context, 1em);
+}
+
+@function rem($pixels, $context: 16px) {
+  @return _em($pixels, $context, 1rem);
+}
