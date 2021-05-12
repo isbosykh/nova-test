@@ -13,7 +13,7 @@
     "path": "^0.12.7",
     "require": "^2.4.20",
     "smooth-scroll": "^16.0.3",
-    "swiper": "^4.5.0",
+    "swiper": "^6.5.1",
     "uglify-js": "^3.5.5",
     "url-loader": "^1.1.2",
     "wowjs": "^1.1.3"
